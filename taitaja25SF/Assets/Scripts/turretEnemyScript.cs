@@ -23,7 +23,6 @@ public class turretEnemyScript : MonoBehaviour
     void Update()
     {
         distance = Vector2.Distance(transform.position, target.transform.position);
-        Debug.Log(distance);
         shotTimer += Time.deltaTime;
         if (shotTimer > 1)
         {

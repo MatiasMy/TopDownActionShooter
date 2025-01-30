@@ -8,6 +8,7 @@ TagManager:
   - enviroment
   - enemy
   - BreakableWall
+  - door
   layers:
   - Default
   - TransparentFX

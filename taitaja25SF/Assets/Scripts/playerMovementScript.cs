@@ -9,7 +9,7 @@ public class playerMovementScript : MonoBehaviour
     public float speed = 5f;
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    private float hp;
+    private static float hp;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -33,5 +33,16 @@ public class playerMovementScript : MonoBehaviour
 
         hp = hp - damage;
         GameObject.Find("hpBar").GetComponent<hpBarScript>().ScaleWidth(hp);
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "door")
+        {
+            SceneManager.LoadScene("lvl2");
+        }
+        if (other.gameObject.tag == "door2")
+        {
+            SceneManager.LoadScene("lvl3");
+        }
     }
 }

@@ -34,6 +34,7 @@ public class walkerScript : MonoBehaviour
 
         if (ray.collider != null)
         {
+            print(ray.transform.gameObject.name);
             if (ray.transform.gameObject.tag == "player")
             {
                 hasLineOfSight = true;
