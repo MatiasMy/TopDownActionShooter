@@ -31,7 +31,7 @@ public class turretEnemyScript : MonoBehaviour
             shoot();
         }
 
-        if (distance < range)
+        if (distance > range)
         {
             allowedToWalk = true;
         }

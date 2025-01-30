@@ -9,7 +9,7 @@ public class playerMovementScript : MonoBehaviour
     public float speed = 5f;
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    public float hp;
+    private float hp;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
