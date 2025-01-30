@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\hpBarScript.cs" />
     <Compile Include="Assets\Scripts\turretBullet2Script.cs" />
     <Compile Include="Assets\Scripts\TrapMine.cs" />
+    <Compile Include="Assets\Scripts\BreakWallOnCollision.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\turretEnemyScript.cs" />
     <Compile Include="Assets\Scripts\aoeEnemyScript.cs" />

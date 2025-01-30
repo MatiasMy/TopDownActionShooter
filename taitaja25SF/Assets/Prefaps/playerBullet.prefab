@@ -11,7 +11,11 @@ GameObject:
   - component: {fileID: 4687330327602801073}
   - component: {fileID: 8049031798432450636}
   - component: {fileID: -560945170177455779}
+<<<<<<< HEAD:taitaja25SF/Assets/Prefaps/playerBullet.prefab
   - component: {fileID: 4424761907456226941}
+=======
+  - component: {fileID: 4612813208824524712}
+>>>>>>> 5dcbd13fc72167d7087f20886ca67d8eedbeffa3:taitaja25SF/Assets/Prefaps/Circle.prefab
   m_Layer: 0
   m_Name: playerBullet
   m_TagString: Untagged
@@ -108,13 +112,18 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< HEAD:taitaja25SF/Assets/Prefaps/playerBullet.prefab
 --- !u!58 &4424761907456226941
 CircleCollider2D:
+=======
+--- !u!61 &4612813208824524712
+BoxCollider2D:
+>>>>>>> 5dcbd13fc72167d7087f20886ca67d8eedbeffa3:taitaja25SF/Assets/Prefaps/Circle.prefab
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -146,5 +155,20 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD:taitaja25SF/Assets/Prefaps/playerBullet.prefab
   serializedVersion: 2
   m_Radius: 0.50000006
+=======
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+>>>>>>> 5dcbd13fc72167d7087f20886ca67d8eedbeffa3:taitaja25SF/Assets/Prefaps/Circle.prefab

@@ -13,8 +13,12 @@ GameObject:
   - component: {fileID: 6009387611561331073}
   - component: {fileID: 5611601229592423217}
   - component: {fileID: -6782481368679955179}
+<<<<<<< HEAD
   - component: {fileID: 4957545617071312303}
   m_Layer: 0
+=======
+  m_Layer: 8
+>>>>>>> 5dcbd13fc72167d7087f20886ca67d8eedbeffa3
   m_Name: player
   m_TagString: player
   m_Icon: {fileID: 0}
@@ -174,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7811946029233797456}
   - component: {fileID: 3531714374389505064}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
