@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|c:\\users\\jesse.makela5\\documents\\topdownactionshooter\\taitaja25sf\\assets\\scripts\\breakwalloncollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|c:\\users\\jesse.makela5\\documents\\topdownactionshooter\\taitaja25sf\\assets\\scripts\\killenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\killenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\breakwalloncollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\breakwalloncollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|c:\\users\\jesse.makela5\\documents\\topdownactionshooter\\taitaja25sf\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\trapmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trapmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\turretbulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turretbulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\hpbarscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hpbarscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\playermovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\hpbarscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hpbarscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\trapmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\trapmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|c:\\users\\jesse.makela5\\documents\\topdownactionshooter\\taitaja25sf\\assets\\scripts\\playerwalksound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerwalksound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\turretbulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turretbulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\walkerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\walkerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0543EE5-3DDC-397F-6BE9-9E7130960098}|Assembly-CSharp.csproj|C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\assets\\scripts\\playercontroller_ykiniky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,19 +59,61 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "KillEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\KillEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KillEnemy.cs",
+              "ToolTip": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\KillEnemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KillEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:37:15.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerWalkSound.cs",
+              "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\PlayerWalkSound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerWalkSound.cs",
+              "ToolTip": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\PlayerWalkSound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerWalkSound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:21:20.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "turretBulletScript.cs",
+              "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\turretBulletScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\turretBulletScript.cs",
+              "ToolTip": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\turretBulletScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\turretBulletScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T10:54:31.025Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BreakWallOnCollision.cs",
               "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\BreakWallOnCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BreakWallOnCollision.cs",
               "ToolTip": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\BreakWallOnCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\BreakWallOnCollision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T11:36:09.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerShoot.cs",
@@ -71,12 +125,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "hpBarScript.cs",
               "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\hpBarScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\hpBarScript.cs",
@@ -84,7 +134,8 @@
               "RelativeToolTip": "Assets\\Scripts\\hpBarScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:19:36.85Z"
+              "WhenOpened": "2025-01-30T11:19:36.85Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,35 +147,37 @@
               "RelativeToolTip": "Assets\\Scripts\\playerMovementScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T11:01:32.527Z"
+              "WhenOpened": "2025-01-30T11:01:32.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "turretBulletScript.cs",
-              "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\turretBulletScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\turretBulletScript.cs",
-              "ToolTip": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\turretBulletScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\turretBulletScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T10:54:31.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TrapMine.cs",
               "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\TrapMine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TrapMine.cs",
               "ToolTip": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\TrapMine.cs",
               "RelativeToolTip": "Assets\\Scripts\\TrapMine.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T10:51:44.66Z"
+              "WhenOpened": "2025-01-30T10:51:44.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "walkerScript.cs",
+              "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\walkerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\walkerScript.cs",
+              "ToolTip": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\walkerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\walkerScript.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:04:44.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PlayerController_ykiniky.cs",
               "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Scripts\\PlayerController_ykiniky.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController_ykiniky.cs",
@@ -136,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "spritesheet_characters.xml",
               "DocumentMoniker": "C:\\Users\\jesse.makela5\\Documents\\TopDownActionShooter\\taitaja25SF\\Assets\\Imports\\kenney_top-down-shooter\\Spritesheet\\spritesheet_characters.xml",
               "RelativeDocumentMoniker": "Assets\\Imports\\kenney_top-down-shooter\\Spritesheet\\spritesheet_characters.xml",

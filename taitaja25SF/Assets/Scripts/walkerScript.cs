@@ -49,7 +49,7 @@ public class walkerScript : MonoBehaviour
     {
         if (col.gameObject.tag == "player")
         {
-            GameObject.Find("player").GetComponent<playerMovementScript>().gotHit();
+            GameObject.Find("player").GetComponent<playerMovementScript>().gotHit(2);
             allowdToWalk = false;
             Invoke("allowWalking", 3);
         }

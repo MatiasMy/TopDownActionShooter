@@ -67,9 +67,11 @@
     <Compile Include="Assets\Scripts\PlayerController_ykiniky.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\turretEnemyScript.cs" />
+    <Compile Include="Assets\Scripts\KillEnemy.cs" />
     <Compile Include="Assets\Scripts\walkerScript.cs" />
     <Compile Include="Assets\Scripts\playerMovementScript.cs" />
     <Compile Include="Assets\Scripts\gameOverScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerWalkSound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
