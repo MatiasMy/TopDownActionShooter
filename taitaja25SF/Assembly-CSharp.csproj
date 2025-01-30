@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\turretBulletScript.cs" />
     <Compile Include="Assets\Scripts\hpBarScript.cs" />
     <Compile Include="Assets\Scripts\turretEnemyScript.cs" />
+    <Compile Include="Assets\Scripts\walkerScript.cs" />
     <Compile Include="Assets\Scripts\playerMovementScript.cs" />
     <Compile Include="Assets\Scripts\gameOverScript.cs" />
   </ItemGroup>

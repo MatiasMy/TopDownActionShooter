@@ -2,37 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class turretEnemyScript : MonoBehaviour
+public class walkerScript : MonoBehaviour
 {
-    public GameObject bullet;
-    public Transform shootPos;
-    public Transform rayPos;
-    private float shotTimer;
     private GameObject target;
+    public float speed;
     private bool hasLineOfSight = false;
-
+    public Transform rayPos;
+    private bool allowdToWalk = true;
     void Start()
     {
         target = GameObject.Find("player");
     }
+
+    // Update is called once per frame
     void Update()
     {
-        shotTimer += Time.deltaTime;
-        if (shotTimer > 1)
+        if (hasLineOfSight && allowdToWalk)
         {
-            shotTimer = 0;
-            shoot();
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed);
         }
-
         Quaternion rotation = Quaternion.LookRotation(target.transform.position - transform.position, transform.TransformDirection(Vector3.up));
         transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
-    }
-    public void shoot()
-    {
-        if (hasLineOfSight)
-        {
-            Instantiate(bullet, shootPos.position, Quaternion.identity);
-        }
     }
     private void FixedUpdate()
     {
@@ -54,5 +44,18 @@ public class turretEnemyScript : MonoBehaviour
 
             Debug.DrawRay(transform.position, direction * distance, hasLineOfSight ? Color.green : Color.red);
         }
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "player")
+        {
+            GameObject.Find("player").GetComponent<playerMovementScript>().gotHit();
+            allowdToWalk = false;
+            Invoke("allowWalking", 3);
+        }
+    }
+    public void allowWalking()
+    {
+        allowdToWalk = true;
     }
 }
