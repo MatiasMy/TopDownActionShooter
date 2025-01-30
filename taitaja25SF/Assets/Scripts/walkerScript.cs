@@ -52,6 +52,7 @@ public class walkerScript : MonoBehaviour
         if (col.gameObject.tag == "player")
         {
             GameObject.Find("player").GetComponent<playerMovementScript>().gotHit(2);
+
             allowedToWalk = false;
             Invoke("allowWalking", 3);
         }
