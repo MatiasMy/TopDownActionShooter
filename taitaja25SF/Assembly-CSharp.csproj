@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\turretEnemyScript.cs" />
     <Compile Include="Assets\Scripts\playerMovementScript.cs" />
+    <Compile Include="Assets\Scripts\gameOverScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

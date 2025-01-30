@@ -22,8 +22,11 @@ public class turretBulletScript : MonoBehaviour
     {
         if (col.gameObject.tag == "player")
         {
-            Debug.Log("osui");
             GameObject.Find("player").GetComponent<playerMovementScript>().gotHit();
+        }
+        if (col.gameObject.layer == 6)
+        {
+            Destroy(gameObject);
         }
     }
 }
