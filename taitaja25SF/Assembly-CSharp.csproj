@@ -60,14 +60,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\turretBulletScript.cs" />
+    <Compile Include="Assets\Scripts\hpBarScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController_ykiniky.cs" />
+    <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\turretEnemyScript.cs" />
     <Compile Include="Assets\Scripts\playerMovementScript.cs" />
-    <Compile Include="Assets\Ykiniky\2D Player Controller\Script\PlayerCameraFollow_ykiniky.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Ykiniky\2D Player Controller\How to use.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Imports\kenney_top-down-shooter\Spritesheet\spritesheet_characters.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
