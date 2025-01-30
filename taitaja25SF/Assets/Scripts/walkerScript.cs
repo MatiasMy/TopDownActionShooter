@@ -8,7 +8,7 @@ public class walkerScript : MonoBehaviour
     public float speed;
     private bool hasLineOfSight = false;
     public Transform rayPos;
-    private bool allowdToWalk = true;
+    private bool allowedToWalk = true;
     void Start()
     {
         target = GameObject.Find("player");
@@ -17,12 +17,13 @@ public class walkerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (hasLineOfSight && allowdToWalk)
+        if (hasLineOfSight && allowedToWalk)
         {
             transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed);
         }
-        Quaternion rotation = Quaternion.LookRotation(target.transform.position - transform.position, transform.TransformDirection(Vector3.up));
-        transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
+        Vector3 direction = target.transform.position - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
     private void FixedUpdate()
     {
@@ -49,13 +50,13 @@ public class walkerScript : MonoBehaviour
     {
         if (col.gameObject.tag == "player")
         {
-            GameObject.Find("player").GetComponent<playerMovementScript>().gotHit();
-            allowdToWalk = false;
+            GameObject.Find("player").GetComponent<playerMovementScript>().gotHit(2);
+            allowedToWalk = false;
             Invoke("allowWalking", 3);
         }
     }
     public void allowWalking()
     {
-        allowdToWalk = true;
+        allowedToWalk = true;
     }
 }

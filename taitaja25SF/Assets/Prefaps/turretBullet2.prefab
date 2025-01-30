@@ -93,11 +93,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 727042974314437612}
-  - component: {fileID: 4912261171033253739}
   - component: {fileID: 2351624474770822143}
-  - component: {fileID: 3364265872014786618}
+  - component: {fileID: 2450492318840456327}
+  - component: {fileID: 1424969115245427107}
   m_Layer: 0
-  m_Name: turretBullet
+  m_Name: turretBullet2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,19 +119,6 @@ Transform:
   - {fileID: 6881154168957970202}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4912261171033253739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5888163700961934817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64c80d48f775bca4bb97855daa0adadd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  force: 10
 --- !u!70 &2351624474770822143
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -167,7 +154,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 0
---- !u!50 &3364265872014786618
+--- !u!114 &2450492318840456327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5888163700961934817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d7d899ab1c78a498e8b371d7d13d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 8
+--- !u!50 &1424969115245427107
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0

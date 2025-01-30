@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6009387611561331073}
   - component: {fileID: 5611601229592423217}
   - component: {fileID: -6782481368679955179}
+  - component: {fileID: 4957545617071312303}
   m_Layer: 0
   m_Name: player
   m_TagString: player
@@ -111,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  hp: 0
 --- !u!58 &-6782481368679955179
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -146,6 +148,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &4957545617071312303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165988598654276817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bdf57825867a642b54bacb9d2e8ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3485156954741974666, guid: 893e060131ffb50478b63dd1fa1cf049, type: 3}
+  firePoint: {fileID: 770648945441200587}
+  canFire: 0
+  timeBetweenFiring: 0
 --- !u!1 &5537765879613062740
 GameObject:
   m_ObjectHideFlags: 0
