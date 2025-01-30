@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\turretBulletScript.cs" />
     <Compile Include="Assets\Scripts\hpBarScript.cs" />
+    <Compile Include="Assets\Scripts\TrapMine.cs" />
     <Compile Include="Assets\Scripts\PlayerController_ykiniky.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\turretEnemyScript.cs" />
