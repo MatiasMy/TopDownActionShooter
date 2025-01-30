@@ -8,14 +8,16 @@ public class Shooting : MonoBehaviour
     private Vector3 mousePos;
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public bool canFire;
+    private bool canFire;
     private float timer;
-    public float timeBetweenFiring;
+    private float timeBetweenFiring;
     private float speed = 20f;
 
     // Start is called before the first frame update
     void Start()
     {
+        timeBetweenFiring = 1.5f;
+        canFire = true;
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
 

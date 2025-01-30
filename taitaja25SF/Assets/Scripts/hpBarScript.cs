@@ -15,8 +15,9 @@ public class hpBarScript : MonoBehaviour
 
     public void ScaleWidth(float newWidth)
     {
-        float deltaWidth = newWidth - originalScale.x;
+        float deltaWidth = originalScale.x - newWidth;
         transform.localScale = new Vector3(newWidth, originalScale.y, originalScale.z);
-        transform.position -= new Vector3(0.5f, 0, 0);
+        transform.position -= new Vector3(0.5f * deltaWidth, 0, 0);
+        originalScale = transform.localScale;
     }
 }

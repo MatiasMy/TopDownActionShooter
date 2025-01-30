@@ -61,13 +61,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\turretBulletScript.cs" />
+    <Compile Include="Assets\Scripts\bulletScript.cs" />
     <Compile Include="Assets\Scripts\hpBarScript.cs" />
+    <Compile Include="Assets\Scripts\turretBullet2Script.cs" />
     <Compile Include="Assets\Scripts\TrapMine.cs" />
     <Compile Include="Assets\Scripts\BreakWallOnCollision.cs" />
-    <Compile Include="Assets\Scripts\PlayerController_ykiniky.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\turretEnemyScript.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\KillEnemy.cs" />
+=======
+    <Compile Include="Assets\Scripts\aoeEnemyScript.cs" />
+>>>>>>> 96a53094a22e9b6026c6430e98562f86d6523b03
     <Compile Include="Assets\Scripts\walkerScript.cs" />
     <Compile Include="Assets\Scripts\playerMovementScript.cs" />
     <Compile Include="Assets\Scripts\gameOverScript.cs" />

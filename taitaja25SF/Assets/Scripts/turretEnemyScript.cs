@@ -10,13 +10,20 @@ public class turretEnemyScript : MonoBehaviour
     private float shotTimer;
     private GameObject target;
     private bool hasLineOfSight = false;
+    private float range;
+    private float distance;
+    private bool allowedToWalk;
+    public float speed;
 
     void Start()
     {
         target = GameObject.Find("player");
+        range = 10f;
     }
     void Update()
     {
+        distance = Vector2.Distance(transform.position, target.transform.position);
+        Debug.Log(distance);
         shotTimer += Time.deltaTime;
         if (shotTimer > 1)
         {
@@ -24,12 +31,27 @@ public class turretEnemyScript : MonoBehaviour
             shoot();
         }
 
-        Quaternion rotation = Quaternion.LookRotation(target.transform.position - transform.position, transform.TransformDirection(Vector3.up));
-        transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
+        if (distance < range)
+        {
+            allowedToWalk = true;
+        }
+        else
+        {
+            allowedToWalk = false;
+        }
+
+        if (hasLineOfSight && allowedToWalk)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed);
+        }
+
+        Vector3 direction = target.transform.position - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
     public void shoot()
     {
-        if (hasLineOfSight)
+        if (hasLineOfSight && !allowedToWalk)
         {
             Instantiate(bullet, shootPos.position, Quaternion.identity);
         }

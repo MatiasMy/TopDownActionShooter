@@ -1,29 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class walkerScript : MonoBehaviour
+public class aoeEnemyScript : MonoBehaviour
 {
-    private GameObject target;
-    public float speed;
-    private bool hasLineOfSight = false;
+    public GameObject bullet;
+    public Transform shootPos;
     public Transform rayPos;
-    private bool allowedToWalk = true;
+    private float shotTimer;
+    private GameObject target;
+    private bool hasLineOfSight = false;
+
     void Start()
     {
         target = GameObject.Find("player");
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if (hasLineOfSight && allowedToWalk)
+        shotTimer += Time.deltaTime;
+        if (shotTimer > 3)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed);
+            shotTimer = 0;
+            shoot();
         }
+
         Vector3 direction = target.transform.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+    public void shoot()
+    {
+        if (hasLineOfSight)
+        {
+            Instantiate(bullet, shootPos.position, Quaternion.identity);
+        }
     }
     private void FixedUpdate()
     {
@@ -45,22 +54,5 @@ public class walkerScript : MonoBehaviour
 
             Debug.DrawRay(transform.position, direction * distance, hasLineOfSight ? Color.green : Color.red);
         }
-    }
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "player")
-        {
-            GameObject.Find("player").GetComponent<playerMovementScript>().gotHit(2);
-<<<<<<< HEAD
-            allowdToWalk = false;
-=======
-            allowedToWalk = false;
->>>>>>> 96a53094a22e9b6026c6430e98562f86d6523b03
-            Invoke("allowWalking", 3);
-        }
-    }
-    public void allowWalking()
-    {
-        allowedToWalk = true;
     }
 }
