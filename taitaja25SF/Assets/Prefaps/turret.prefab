@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6588045676666158581}
   - component: {fileID: 5169231928742771635}
   m_Layer: 3
-  m_Name: enemy1
+  m_Name: turret
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
