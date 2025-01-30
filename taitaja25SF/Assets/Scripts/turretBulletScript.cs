@@ -22,7 +22,7 @@ public class turretBulletScript : MonoBehaviour
     {
         if (col.gameObject.tag == "player")
         {
-            GameObject.Find("player").GetComponent<playerMovementScript>().gotHit();
+            GameObject.Find("player").GetComponent<playerMovementScript>().gotHit(1);
         }
         if (col.gameObject.layer == 6)
         {

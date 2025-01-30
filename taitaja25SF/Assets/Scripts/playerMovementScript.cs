@@ -9,7 +9,7 @@ public class playerMovementScript : MonoBehaviour
     public float speed = 5f;
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    private float hp;
+    public float hp;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,9 +28,10 @@ public class playerMovementScript : MonoBehaviour
             SceneManager.LoadScene("GameOverScene");
         }
     }
-    public void gotHit()
+    public void gotHit(int damage)
     {
-        hp = hp - 1;
+
+        hp = hp - damage;
         GameObject.Find("hpBar").GetComponent<hpBarScript>().ScaleWidth(hp);
     }
 }
