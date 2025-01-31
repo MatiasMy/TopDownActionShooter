@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2037643889263836830}
   - component: {fileID: 7502748214310686292}
   - component: {fileID: 4194433188267872434}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: playerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3758687106579640829}
   - component: {fileID: 1281085177472556223}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

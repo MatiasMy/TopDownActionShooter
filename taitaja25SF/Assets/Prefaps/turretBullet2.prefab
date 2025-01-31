@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6881154168957970202}
   - component: {fileID: 8163039455063902099}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248378417709839072}
   - component: {fileID: 1450613486629965403}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 2450492318840456327}
   - component: {fileID: 1424969115245427107}
   - component: {fileID: 6452121612605592997}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: turretBullet2
   m_TagString: bullet
   m_Icon: {fileID: 0}
