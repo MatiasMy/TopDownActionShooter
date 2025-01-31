@@ -9,10 +9,12 @@ public class aoeEnemyScript : MonoBehaviour
     private float shotTimer;
     private GameObject target;
     private bool hasLineOfSight = false;
+    int layerMask;
 
     void Start()
     {
         target = GameObject.Find("player");
+        layerMask = ~LayerMask.GetMask("ignore");
     }
     void Update()
     {
@@ -39,7 +41,7 @@ public class aoeEnemyScript : MonoBehaviour
         Vector2 direction = (target.transform.position - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, target.transform.position);
 
-        RaycastHit2D ray = Physics2D.Raycast(rayPos.position, direction);
+        RaycastHit2D ray = Physics2D.Raycast(rayPos.position, direction, distance, layerMask);
 
         if (ray.collider != null)
         {

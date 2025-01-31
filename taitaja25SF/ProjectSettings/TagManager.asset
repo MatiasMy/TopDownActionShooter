@@ -9,6 +9,11 @@ TagManager:
   - enemy
   - BreakableWall
   - door
+  - door2
+  - door3
+  - bWall
+  - mine
+  - bullet
   layers:
   - Default
   - TransparentFX
@@ -19,7 +24,7 @@ TagManager:
   - enviroment
   - BreakableWall
   - player
-  - 
+  - ignore
   - 
   - 
   - 

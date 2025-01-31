@@ -24,6 +24,7 @@ public class turretBullet2Script : MonoBehaviour
         if (col.gameObject.tag == "player")
         {
             GameObject.Find("player").GetComponent<playerMovementScript>().gotHit(1);
+            Destroy(gameObject);
         }
         if (col.gameObject.layer == 6)
         {

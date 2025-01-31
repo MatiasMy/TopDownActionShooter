@@ -9,9 +9,11 @@ public class walkerScript : MonoBehaviour
     private bool hasLineOfSight = false;
     public Transform rayPos;
     private bool allowedToWalk = true;
+    int layerMask;
     void Start()
     {
         target = GameObject.Find("player");
+        layerMask = ~LayerMask.GetMask("ignore");
     }
 
     // Update is called once per frame
@@ -30,7 +32,7 @@ public class walkerScript : MonoBehaviour
         Vector2 direction = (target.transform.position - transform.position).normalized;
         float distance = Vector2.Distance(transform.position, target.transform.position);
 
-        RaycastHit2D ray = Physics2D.Raycast(rayPos.position, direction);
+        RaycastHit2D ray = Physics2D.Raycast(rayPos.position, direction, distance, layerMask);
 
         if (ray.collider != null)
         {
@@ -54,7 +56,7 @@ public class walkerScript : MonoBehaviour
             GameObject.Find("player").GetComponent<playerMovementScript>().gotHit(2);
 
             allowedToWalk = false;
-            Invoke("allowWalking", 3);
+            Invoke("allowWalking", 1.5f);
         }
     }
     public void allowWalking()

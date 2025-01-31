@@ -11,5 +11,24 @@ public class bulletScript : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);        
         }
+        if (other.gameObject.tag == "bWall")
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);        
+        }
+        if (other.gameObject.tag == "mine")
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);        
+        }
+        if (other.gameObject.layer == 6)
+        {
+            Destroy(gameObject);        
+        }
+        if (other.gameObject.tag == "bullet")
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);        
+        }
     }
 }

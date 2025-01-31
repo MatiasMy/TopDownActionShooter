@@ -10,6 +10,7 @@ public class playerMovementScript : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private static float hp;
+    private bool alreadyHit = false;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,7 +31,10 @@ public class playerMovementScript : MonoBehaviour
     }
     public void gotHit(int damage)
     {
-
+        if (alreadyHit)
+        {
+            return;
+        }
         hp = hp - damage;
         GameObject.Find("hpBar").GetComponent<hpBarScript>().ScaleWidth(hp);
     }
@@ -44,5 +48,20 @@ public class playerMovementScript : MonoBehaviour
         {
             SceneManager.LoadScene("lvl3");
         }
+        if (other.gameObject.tag == "door3")
+        {
+            SceneManager.LoadScene("startGame");
+        }
+        if (other.gameObject.tag == "mine")
+        {
+            gotHit(3);
+            Destroy(other.gameObject);
+            alreadyHit = true;
+            Invoke("canGetHit", 1);
+        }
+    }
+    public void canGetHit()
+    {
+        alreadyHit = false;
     }
 }
